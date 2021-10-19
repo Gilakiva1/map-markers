@@ -5,14 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <title>Map Markers</title>
-    <h1>Map Markers</h1>
 </head>
-
 <body onload="initMap()">
-    <h1>my map!</h1>
 
-    
+    <h1>Map Markers</h1>
+    <div id="map" class="map">
+
+    </div>
+
+
+    <script src="./service.js"></script>
+    <script src="map.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFXMKnLTzbGyLpnKlxj9YiyhMkMs4nf0M&callback=initMap">
+    </script>
 </body>
-
 </html>
