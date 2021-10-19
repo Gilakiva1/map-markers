@@ -1,14 +1,14 @@
-function getData(){
+function query(){
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
-            return resolve(data)
+            return resolve(locs)
         }, 5000);
     })
 }
 
 
 
-const data = [
+const locs = [
     {
         "name":"Haifa",
         "lat":32.794044,

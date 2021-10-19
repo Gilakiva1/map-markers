@@ -5,11 +5,30 @@ body {
     padding: 0;
 }
 
-#map {
+.map {
     height: 80%;
 }
+.center-map {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+.center-map > div {
+    color: rgb(25, 25, 25);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-h1{
+h1 {
     text-align: center;
     background-color: rgb(236, 183, 69);
     color: #333;
